@@ -101,6 +101,12 @@
 		4085CF651CB4D10D00F27AC2 /* AnimationTask */ = {
 			isa = PBXGroup;
 			children = (
+				4085CF9E1CB4D15000F27AC2 /* ParticleAnaimation */,
+				4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */,
+				4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */,
+				4085CF9B1CB4D12D00F27AC2 /* Pop */,
+				4085CF9A1CB4D11E00F27AC2 /* LayerAnimation */,
+				4085CF991CB4D11400F27AC2 /* ViewAnimation */,
 				4085CF691CB4D10D00F27AC2 /* AppDelegate.h */,
 				4085CF6A1CB4D10D00F27AC2 /* AppDelegate.m */,
 				4085CF6C1CB4D10D00F27AC2 /* ViewController.h */,
@@ -138,6 +144,48 @@
 				4085CF8D1CB4D10D00F27AC2 /* Info.plist */,
 			);
 			path = AnimationTaskUITests;
+			sourceTree = "<group>";
+		};
+		4085CF991CB4D11400F27AC2 /* ViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewAnimation;
+			sourceTree = "<group>";
+		};
+		4085CF9A1CB4D11E00F27AC2 /* LayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LayerAnimation;
+			sourceTree = "<group>";
+		};
+		4085CF9B1CB4D12D00F27AC2 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pop;
+			sourceTree = "<group>";
+		};
+		4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DynamicAnimation;
+			sourceTree = "<group>";
+		};
+		4085CF9E1CB4D15000F27AC2 /* ParticleAnaimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ParticleAnaimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
