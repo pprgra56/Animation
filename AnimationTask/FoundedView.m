@@ -37,7 +37,7 @@
     UIButton *topBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     topBtn.userInteractionEnabled = NO;
     [topBtn setTitleColor:[UIColor titleColor] forState:UIControlStateNormal];
-    topBtn.titleLabel.font = [UIFont boldSystemFontOfSize:11];
+    topBtn.titleLabel.font = [UIFont boldSystemFontOfSize:13];
     topBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 4, 0, 0);
     [topBtn setImage:[UIImage imageNamed:@"statistics-founded-icon"] forState:UIControlStateNormal];
     [topBtn setTitle:@"FOUNDED" forState:UIControlStateNormal];

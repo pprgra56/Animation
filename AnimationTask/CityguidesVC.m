@@ -61,7 +61,7 @@ static CGFloat const kMargin = 10.0;
     titleBtn.userInteractionEnabled = NO;
     titleBtn.titleLabel.font = [UIFont boldSystemFontOfSize:18];
     titleBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 4, 0, 0);
-    [titleBtn setTitleColor:[UIColor titleColor] forState:UIControlStateNormal];
+//    [titleBtn setTitleColor:[UIColor titleColor] forState:UIControlStateNormal];
     [titleBtn setImage:[UIImage imageNamed:@"main-menu-iphone-essentials-selected"] forState:UIControlStateNormal];
     [titleBtn setTitle:@"Stats" forState:UIControlStateNormal];
     titleBtn.titleLabel.adjustsFontSizeToFitWidth = YES;
@@ -107,7 +107,7 @@ static CGFloat const kMargin = 10.0;
 {
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
 
-    FoundedView *foundedView = [[FoundedView alloc] initWithFrame:CGRectMake(kMargin, kMargin, (screenWidth - 3 * kMargin) * 0.5, 120)];
+    FoundedView *foundedView = [[FoundedView alloc] initWithFrame:CGRectMake(kMargin, kMargin, (screenWidth - 3 * kMargin) * 0.5, 138)];
     self.foundedView = foundedView;
     [self.guidesView addSubview:foundedView];
     
@@ -137,11 +137,11 @@ static CGFloat const kMargin = 10.0;
     blackX = cityPopView.x;
     
     //////
-    GrouthView *grouthView = [[GrouthView alloc] initWithFrame:CGRectMake(-areaView.width, CGRectGetMaxY(cityPopView.frame) + kMargin, areaView.width, areaView.height)];
+    GrouthView *grouthView = [[GrouthView alloc] initWithFrame:CGRectMake(kMargin, CGRectGetMaxY(cityPopView.frame) + kMargin, areaView.width, areaView.height)];
     self.grouthView = grouthView;
     [self.guidesView addSubview:grouthView];
     
-    DensityView *densityView = [[DensityView alloc] initWithFrame:CGRectMake(screenWidth, grouthView.y, cityPopView.width, cityPopView.height)];
+    DensityView *densityView = [[DensityView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(grouthView.frame) + kMargin, grouthView.y, cityPopView.width, cityPopView.height)];
     self.densityView = densityView;
     [self.guidesView addSubview:densityView];
 
@@ -164,6 +164,11 @@ static CGFloat const kMargin = 10.0;
 {
     CGFloat offsetY = scrollView.contentOffset.y;
     NSLog(@"%f",offsetY);
+    if (offsetY < -98) {
+        self.areaView.x = kMargin - (-98 - offsetY);
+        self.cityPopView.x = blackX + (-98 - offsetY);
+    }
+    
     if (offsetY <= -64) {
         self.foundedView.x = kMargin;
         self.elevationView.x = orangeX;
@@ -173,52 +178,62 @@ static CGFloat const kMargin = 10.0;
         self.elevationView.x = orangeX + (offsetY + 64);
      
     }
-    if (offsetY > 10) {
-        self.grouthView.x = - CGRectGetWidth(self.grouthView.frame) - kMargin + (offsetY + 64) *5;
-        self.densityView.x = [UIScreen mainScreen].bounds.size.width - (offsetY + 64) *6.6;
+    if (offsetY < 30) {
+        self.grouthView.x = kMargin - (30 - offsetY);
+        self.densityView.x = blackX + (30 - offsetY);
     }
-    if (offsetY > 95) {
-        self.temperatureView.x = kMargin - (offsetY - 95) * 3;
+//    if (offsetY > 10) {
+//        self.grouthView.x = - CGRectGetWidth(self.grouthView.frame) - kMargin + (offsetY + 64) *5;
+//        self.densityView.x = [UIScreen mainScreen].bounds.size.width - (offsetY + 64) *6.6;
+//    }
+    if (offsetY > 65) {
+        self.temperatureView.x = kMargin - (offsetY - 65) * 3;
     }
-    if (offsetY <= 95) {
+    if (offsetY <= 65) {
         self.temperatureView.x = kMargin;
     }
-    if (offsetY > 206) {
-        self.precipitationView.x = kMargin + (offsetY - 206) * 1.3;
+    if (offsetY > 174) {
+        self.precipitationView.x = kMargin + (offsetY - 174) * 1.3;
     }
-    if (offsetY > 104 && offsetY <= 286) {
-        self.bigView.x = 2 * kMargin - [UIScreen mainScreen].bounds.size.width + (offsetY - 104) * 2;
+    if (offsetY > 30 && offsetY <= 212) {
+        self.bigView.x = 2 * kMargin - [UIScreen mainScreen].bounds.size.width + (offsetY - 30) * 2;
     }
-    if (offsetY > 286) {
+    if (offsetY > 212 && offsetY <= 678) {
         self.bigView.x = kMargin;
     }
-    if (offsetY <= 206) {
+    if (offsetY > 678) {
+        self.bigView.x = kMargin + (offsetY - 678);
+    }
+    if (offsetY <= 174) {
         self.precipitationView.x = kMargin;
     }
-    if (offsetY > 445) {
-        self.areaView.x = kMargin - (offsetY - 445);
-        self.cityPopView.x = blackX + (offsetY - 445);
+    if (offsetY > 366) {
+        self.areaView.x = kMargin - (offsetY - 366);
+        self.cityPopView.x = blackX + (offsetY - 366);
     }
-    if (offsetY <= 445) {
+    if (offsetY <= 366 && offsetY >= -98) {
         self.areaView.x = kMargin;
         self.cityPopView.x = blackX;
     }
-    if (offsetY > 506 && offsetY <= 628) {
-        self.lastView.x = [UIScreen mainScreen].bounds.size.width - (offsetY - 506) * 3;
+    if (offsetY > 393) {
+        self.lastView.x = [UIScreen mainScreen].bounds.size.width - (offsetY - 393) * 3;
     }
-    if (offsetY > 606) {
-        self.grouthView.x = kMargin - (offsetY - 606) * 0.2;
-        self.densityView.x = blackX + (offsetY - 606) * 0.2;
+    if (offsetY > 496) {
+        self.grouthView.x = kMargin - (offsetY - 496) * 0.2;
+        self.densityView.x = blackX + (offsetY - 496) * 0.2;
+
     }
-    if (offsetY <= 606 && offsetY > 10) {
+//    if (offsetY > 606) {
+//        self.grouthView.x = kMargin - (offsetY - 606) * 0.2;
+//        self.densityView.x = blackX + (offsetY - 606) * 0.2;
+//    }
+    if (offsetY <= 496 && offsetY > 30) {
         self.grouthView.x = kMargin;
         self.densityView.x = blackX;
     }
-    if (offsetY > 628) {
+    if (offsetY > 514) {
         self.lastView.x = kMargin;
     }
-  
-
 }
 
 - (void)didReceiveMemoryWarning {
