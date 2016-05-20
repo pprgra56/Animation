@@ -97,7 +97,7 @@ static CGFloat const kMargin = 10.0;
 //        self.guidesView.height = [UIScreen mainScreen].bounds.size.height;
 //    }];
     
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+    [UIView animateWithDuration:0.5 delay:0.1 options:UIViewAnimationOptionCurveEaseIn animations:^{
          self.guidesView.y = 0;
     } completion:nil];
     
@@ -223,6 +223,7 @@ static CGFloat const kMargin = 10.0;
         self.densityView.x = blackX + (offsetY - 496) * 0.2;
 
     }
+
 //    if (offsetY > 606) {
 //        self.grouthView.x = kMargin - (offsetY - 606) * 0.2;
 //        self.densityView.x = blackX + (offsetY - 606) * 0.2;

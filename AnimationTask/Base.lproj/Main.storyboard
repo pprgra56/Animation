@@ -16,7 +16,6 @@
                     <view key="view" contentMode="scaleToFill" id="1B1-Mh-NoD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.080458263422818796" green="0.090315645973154363" blue="0.10677957214765101" alpha="0.89377693965517246" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZ1-4J-CoH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -127,22 +126,11 @@
                                     <action selector="blueBtnclicked:" destination="K9d-EO-nYy" eventType="touchUpInside" id="4zK-rA-trl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a75-R5-XRl">
-                                <rect key="frame" x="275" y="275" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.36039744130000001" green="0.75346807549999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="ezp-0h-rz9"/>
-                                    <constraint firstAttribute="height" constant="50" id="iBc-dc-ywd"/>
-                                </constraints>
-                                <color key="tintColor" red="0.36039744130000001" green="0.75346807549999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="a75-R5-XRl" firstAttribute="centerY" secondItem="3gS-8U-4v5" secondAttribute="centerY" id="1LR-EJ-V6R"/>
                             <constraint firstItem="4RP-d7-bTl" firstAttribute="centerX" secondItem="3gS-8U-4v5" secondAttribute="centerX" id="O2j-NH-B8Z"/>
                             <constraint firstItem="4RP-d7-bTl" firstAttribute="top" secondItem="rcV-gm-AjC" secondAttribute="bottom" constant="112" id="ORu-MQ-kTF"/>
-                            <constraint firstItem="a75-R5-XRl" firstAttribute="centerX" secondItem="3gS-8U-4v5" secondAttribute="centerX" id="fMk-nI-TZo"/>
                         </constraints>
                     </view>
                     <connections>
