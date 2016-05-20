@@ -15,6 +15,27 @@
 		4085CF761CB4D10D00F27AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4085CF741CB4D10D00F27AC2 /* LaunchScreen.storyboard */; };
 		4085CF811CB4D10D00F27AC2 /* AnimationTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF801CB4D10D00F27AC2 /* AnimationTaskTests.m */; };
 		4085CF8C1CB4D10D00F27AC2 /* AnimationTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF8B1CB4D10D00F27AC2 /* AnimationTaskUITests.m */; };
+		B1D224201CEC41FC001B1C82 /* ParticleAnaimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D2241F1CEC41FC001B1C82 /* ParticleAnaimationVC.m */; };
+		B1D224231CEC4211001B1C82 /* DynamicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224221CEC4211001B1C82 /* DynamicAnimationVC.m */; };
+		B1D224261CEC421F001B1C82 /* TransitionAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224251CEC421F001B1C82 /* TransitionAnimationVC.m */; };
+		B1D224291CEC424A001B1C82 /* LayerAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224281CEC424A001B1C82 /* LayerAnimationVC.m */; };
+		B1D2242C1CEC4258001B1C82 /* ViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D2242B1CEC4258001B1C82 /* ViewAnimationVC.m */; };
+		B1D224331CED9865001B1C82 /* CityguidesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224321CED9865001B1C82 /* CityguidesVC.m */; };
+		B1D224361CEDA0FD001B1C82 /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224351CEDA0FD001B1C82 /* UIView+FrameExtension.m */; };
+		B1D2243A1CEDD68C001B1C82 /* FoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224391CEDD68C001B1C82 /* FoundedView.m */; };
+		B1D224401CEDDEB5001B1C82 /* UIColor+GuidesColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D2243F1CEDDEB5001B1C82 /* UIColor+GuidesColor.m */; };
+		B1D224431CEDF1D8001B1C82 /* ElevationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224421CEDF1D8001B1C82 /* ElevationView.m */; };
+		B1D224BA1CEEDB02001B1C82 /* TemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224B91CEEDB02001B1C82 /* TemperatureView.m */; };
+		B1D224BC1CEEDB0D001B1C82 /* TemperatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D224BB1CEEDB0D001B1C82 /* TemperatureView.xib */; };
+		B1D224BF1CEEE253001B1C82 /* PrecipitationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224BE1CEEE253001B1C82 /* PrecipitationView.m */; };
+		B1D224C11CEEE260001B1C82 /* PrecipitationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D224C01CEEE260001B1C82 /* PrecipitationView.xib */; };
+		B1D224C41CEEEC20001B1C82 /* AreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224C31CEEEC20001B1C82 /* AreaView.m */; };
+		B1D224C71CEEED91001B1C82 /* CityPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224C61CEEED91001B1C82 /* CityPopView.m */; };
+		B1D224CA1CEEEE44001B1C82 /* GrouthView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224C91CEEEE44001B1C82 /* GrouthView.m */; };
+		B1D224CD1CEEF0AD001B1C82 /* DensityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224CC1CEEF0AD001B1C82 /* DensityView.m */; };
+		B1D224D01CEEF4C7001B1C82 /* PopulationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224CF1CEEF4C7001B1C82 /* PopulationView.m */; };
+		B1D224D21CEEF4D3001B1C82 /* PopulationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D224D11CEEF4D3001B1C82 /* PopulationView.xib */; };
+		B1D224D51CEF0419001B1C82 /* TotalPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D224D41CEF0419001B1C82 /* TotalPopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,45 @@
 		4085CF871CB4D10D00F27AC2 /* AnimationTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4085CF8B1CB4D10D00F27AC2 /* AnimationTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTaskUITests.m; sourceTree = "<group>"; };
 		4085CF8D1CB4D10D00F27AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D2241E1CEC41FC001B1C82 /* ParticleAnaimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAnaimationVC.h; sourceTree = "<group>"; };
+		B1D2241F1CEC41FC001B1C82 /* ParticleAnaimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAnaimationVC.m; sourceTree = "<group>"; };
+		B1D224211CEC4211001B1C82 /* DynamicAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimationVC.h; sourceTree = "<group>"; };
+		B1D224221CEC4211001B1C82 /* DynamicAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimationVC.m; sourceTree = "<group>"; };
+		B1D224241CEC421F001B1C82 /* TransitionAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationVC.h; sourceTree = "<group>"; };
+		B1D224251CEC421F001B1C82 /* TransitionAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationVC.m; sourceTree = "<group>"; };
+		B1D224271CEC424A001B1C82 /* LayerAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationVC.h; sourceTree = "<group>"; };
+		B1D224281CEC424A001B1C82 /* LayerAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationVC.m; sourceTree = "<group>"; };
+		B1D2242A1CEC4258001B1C82 /* ViewAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationVC.h; sourceTree = "<group>"; };
+		B1D2242B1CEC4258001B1C82 /* ViewAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAnimationVC.m; sourceTree = "<group>"; };
+		B1D224311CED9865001B1C82 /* CityguidesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityguidesVC.h; sourceTree = "<group>"; };
+		B1D224321CED9865001B1C82 /* CityguidesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityguidesVC.m; sourceTree = "<group>"; };
+		B1D224341CEDA0FD001B1C82 /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		B1D224351CEDA0FD001B1C82 /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		B1D224381CEDD68C001B1C82 /* FoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundedView.h; sourceTree = "<group>"; };
+		B1D224391CEDD68C001B1C82 /* FoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundedView.m; sourceTree = "<group>"; };
+		B1D2243E1CEDDEB5001B1C82 /* UIColor+GuidesColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GuidesColor.h"; sourceTree = "<group>"; };
+		B1D2243F1CEDDEB5001B1C82 /* UIColor+GuidesColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GuidesColor.m"; sourceTree = "<group>"; };
+		B1D224411CEDF1D8001B1C82 /* ElevationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevationView.h; sourceTree = "<group>"; };
+		B1D224421CEDF1D8001B1C82 /* ElevationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevationView.m; sourceTree = "<group>"; };
+		B1D224B81CEEDB02001B1C82 /* TemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureView.h; sourceTree = "<group>"; };
+		B1D224B91CEEDB02001B1C82 /* TemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureView.m; sourceTree = "<group>"; };
+		B1D224BB1CEEDB0D001B1C82 /* TemperatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureView.xib; sourceTree = "<group>"; };
+		B1D224BD1CEEE253001B1C82 /* PrecipitationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecipitationView.h; sourceTree = "<group>"; };
+		B1D224BE1CEEE253001B1C82 /* PrecipitationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrecipitationView.m; sourceTree = "<group>"; };
+		B1D224C01CEEE260001B1C82 /* PrecipitationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrecipitationView.xib; sourceTree = "<group>"; };
+		B1D224C21CEEEC20001B1C82 /* AreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaView.h; sourceTree = "<group>"; };
+		B1D224C31CEEEC20001B1C82 /* AreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaView.m; sourceTree = "<group>"; };
+		B1D224C51CEEED91001B1C82 /* CityPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPopView.h; sourceTree = "<group>"; };
+		B1D224C61CEEED91001B1C82 /* CityPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPopView.m; sourceTree = "<group>"; };
+		B1D224C81CEEEE44001B1C82 /* GrouthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrouthView.h; sourceTree = "<group>"; };
+		B1D224C91CEEEE44001B1C82 /* GrouthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrouthView.m; sourceTree = "<group>"; };
+		B1D224CB1CEEF0AD001B1C82 /* DensityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DensityView.h; sourceTree = "<group>"; };
+		B1D224CC1CEEF0AD001B1C82 /* DensityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DensityView.m; sourceTree = "<group>"; };
+		B1D224CE1CEEF4C7001B1C82 /* PopulationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopulationView.h; sourceTree = "<group>"; };
+		B1D224CF1CEEF4C7001B1C82 /* PopulationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopulationView.m; sourceTree = "<group>"; };
+		B1D224D11CEEF4D3001B1C82 /* PopulationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopulationView.xib; sourceTree = "<group>"; };
+		B1D224D31CEF0419001B1C82 /* TotalPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalPopView.h; sourceTree = "<group>"; };
+		B1D224D41CEF0419001B1C82 /* TotalPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalPopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +161,8 @@
 		4085CF651CB4D10D00F27AC2 /* AnimationTask */ = {
 			isa = PBXGroup;
 			children = (
+				B1D2243D1CEDD8D8001B1C82 /* Category */,
+				B1D224301CED982A001B1C82 /* CityGuides */,
 				4085CF9E1CB4D15000F27AC2 /* ParticleAnaimation */,
 				4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */,
 				4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */,
@@ -149,6 +211,8 @@
 		4085CF991CB4D11400F27AC2 /* ViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B1D2242A1CEC4258001B1C82 /* ViewAnimationVC.h */,
+				B1D2242B1CEC4258001B1C82 /* ViewAnimationVC.m */,
 			);
 			name = ViewAnimation;
 			sourceTree = "<group>";
@@ -156,6 +220,8 @@
 		4085CF9A1CB4D11E00F27AC2 /* LayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B1D224271CEC424A001B1C82 /* LayerAnimationVC.h */,
+				B1D224281CEC424A001B1C82 /* LayerAnimationVC.m */,
 			);
 			name = LayerAnimation;
 			sourceTree = "<group>";
@@ -170,6 +236,8 @@
 		4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B1D224241CEC421F001B1C82 /* TransitionAnimationVC.h */,
+				B1D224251CEC421F001B1C82 /* TransitionAnimationVC.m */,
 			);
 			name = TransitionAnimation;
 			sourceTree = "<group>";
@@ -177,6 +245,8 @@
 		4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B1D224211CEC4211001B1C82 /* DynamicAnimationVC.h */,
+				B1D224221CEC4211001B1C82 /* DynamicAnimationVC.m */,
 			);
 			name = DynamicAnimation;
 			sourceTree = "<group>";
@@ -184,8 +254,61 @@
 		4085CF9E1CB4D15000F27AC2 /* ParticleAnaimation */ = {
 			isa = PBXGroup;
 			children = (
+				B1D2241E1CEC41FC001B1C82 /* ParticleAnaimationVC.h */,
+				B1D2241F1CEC41FC001B1C82 /* ParticleAnaimationVC.m */,
 			);
 			name = ParticleAnaimation;
+			sourceTree = "<group>";
+		};
+		B1D224301CED982A001B1C82 /* CityGuides */ = {
+			isa = PBXGroup;
+			children = (
+				B1D224371CEDD5B4001B1C82 /* Views */,
+				B1D224311CED9865001B1C82 /* CityguidesVC.h */,
+				B1D224321CED9865001B1C82 /* CityguidesVC.m */,
+			);
+			name = CityGuides;
+			sourceTree = "<group>";
+		};
+		B1D224371CEDD5B4001B1C82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1D224381CEDD68C001B1C82 /* FoundedView.h */,
+				B1D224391CEDD68C001B1C82 /* FoundedView.m */,
+				B1D224411CEDF1D8001B1C82 /* ElevationView.h */,
+				B1D224421CEDF1D8001B1C82 /* ElevationView.m */,
+				B1D224B81CEEDB02001B1C82 /* TemperatureView.h */,
+				B1D224B91CEEDB02001B1C82 /* TemperatureView.m */,
+				B1D224BB1CEEDB0D001B1C82 /* TemperatureView.xib */,
+				B1D224BD1CEEE253001B1C82 /* PrecipitationView.h */,
+				B1D224BE1CEEE253001B1C82 /* PrecipitationView.m */,
+				B1D224C01CEEE260001B1C82 /* PrecipitationView.xib */,
+				B1D224C21CEEEC20001B1C82 /* AreaView.h */,
+				B1D224C31CEEEC20001B1C82 /* AreaView.m */,
+				B1D224C51CEEED91001B1C82 /* CityPopView.h */,
+				B1D224C61CEEED91001B1C82 /* CityPopView.m */,
+				B1D224C81CEEEE44001B1C82 /* GrouthView.h */,
+				B1D224C91CEEEE44001B1C82 /* GrouthView.m */,
+				B1D224CB1CEEF0AD001B1C82 /* DensityView.h */,
+				B1D224CC1CEEF0AD001B1C82 /* DensityView.m */,
+				B1D224CE1CEEF4C7001B1C82 /* PopulationView.h */,
+				B1D224CF1CEEF4C7001B1C82 /* PopulationView.m */,
+				B1D224D11CEEF4D3001B1C82 /* PopulationView.xib */,
+				B1D224D31CEF0419001B1C82 /* TotalPopView.h */,
+				B1D224D41CEF0419001B1C82 /* TotalPopView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B1D2243D1CEDD8D8001B1C82 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B1D224341CEDA0FD001B1C82 /* UIView+FrameExtension.h */,
+				B1D224351CEDA0FD001B1C82 /* UIView+FrameExtension.m */,
+				B1D2243E1CEDDEB5001B1C82 /* UIColor+GuidesColor.h */,
+				B1D2243F1CEDDEB5001B1C82 /* UIColor+GuidesColor.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +415,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4085CF761CB4D10D00F27AC2 /* LaunchScreen.storyboard in Resources */,
+				B1D224C11CEEE260001B1C82 /* PrecipitationView.xib in Resources */,
 				4085CF731CB4D10D00F27AC2 /* Assets.xcassets in Resources */,
+				B1D224D21CEEF4D3001B1C82 /* PopulationView.xib in Resources */,
+				B1D224BC1CEEDB0D001B1C82 /* TemperatureView.xib in Resources */,
 				4085CF711CB4D10D00F27AC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +444,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D224BF1CEEE253001B1C82 /* PrecipitationView.m in Sources */,
+				B1D224CA1CEEEE44001B1C82 /* GrouthView.m in Sources */,
+				B1D2242C1CEC4258001B1C82 /* ViewAnimationVC.m in Sources */,
 				4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */,
+				B1D224D51CEF0419001B1C82 /* TotalPopView.m in Sources */,
+				B1D224C71CEEED91001B1C82 /* CityPopView.m in Sources */,
+				B1D224D01CEEF4C7001B1C82 /* PopulationView.m in Sources */,
+				B1D224431CEDF1D8001B1C82 /* ElevationView.m in Sources */,
 				4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */,
+				B1D224261CEC421F001B1C82 /* TransitionAnimationVC.m in Sources */,
+				B1D224291CEC424A001B1C82 /* LayerAnimationVC.m in Sources */,
 				4085CF681CB4D10D00F27AC2 /* main.m in Sources */,
+				B1D224231CEC4211001B1C82 /* DynamicAnimationVC.m in Sources */,
+				B1D224C41CEEEC20001B1C82 /* AreaView.m in Sources */,
+				B1D224201CEC41FC001B1C82 /* ParticleAnaimationVC.m in Sources */,
+				B1D224401CEDDEB5001B1C82 /* UIColor+GuidesColor.m in Sources */,
+				B1D2243A1CEDD68C001B1C82 /* FoundedView.m in Sources */,
+				B1D224BA1CEEDB02001B1C82 /* TemperatureView.m in Sources */,
+				B1D224361CEDA0FD001B1C82 /* UIView+FrameExtension.m in Sources */,
+				B1D224CD1CEEF0AD001B1C82 /* DensityView.m in Sources */,
+				B1D224331CED9865001B1C82 /* CityguidesVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +690,7 @@
 				4085CF921CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4085CF931CB4D10D00F27AC2 /* Build configuration list for PBXNativeTarget "AnimationTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +699,7 @@
 				4085CF951CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4085CF961CB4D10D00F27AC2 /* Build configuration list for PBXNativeTarget "AnimationTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +708,7 @@
 				4085CF981CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

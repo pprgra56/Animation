@@ -10,9 +10,18 @@
 
 static NSString * const kCellID = @"kCellID";
 
+static NSString * const kShowViewAnimationVC = @"kShowViewAnimationVC";
+static NSString * const kShowLayerAnimationVC = @"kShowLayerAnimationVC";
+static NSString * const kShowTransitionAnimationVC = @"kShowTransitionAnimationVC";
+static NSString * const kShowDynamicAnimationVC = @"kShowDynamicAnimationVC";
+static NSString * const kShowParticleAnaimationVC = @"kShowParticleAnaimationVC";
+static NSString * const kShowCityguidesVC = @"kShowCityguidesVC";
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray<NSString *> *animationNames;
+@property (nonatomic, strong) NSArray *segueArray;
+
 
 @end
 
@@ -22,7 +31,8 @@ static NSString * const kCellID = @"kCellID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.animationNames = @[@"ViewAnimation", @"LayerAnimation", @"TransitionAnimation", @"DynamicAnimation", @"ParticleAnimation"];
+    self.animationNames = @[@"ViewAnimation", @"LayerAnimation", @"TransitionAnimation", @"DynamicAnimation", @"ParticleAnimation",@"CityGuidesAnimation"];
+    self.segueArray = @[kShowViewAnimationVC,kShowLayerAnimationVC,kShowTransitionAnimationVC,kShowDynamicAnimationVC,kShowParticleAnaimationVC,kShowCityguidesVC];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -48,6 +58,8 @@ static NSString * const kCellID = @"kCellID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
    // TODO: Finish Click Action
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    [self performSegueWithIdentifier:self.segueArray[indexPath.row] sender:nil];
     
 }
 
