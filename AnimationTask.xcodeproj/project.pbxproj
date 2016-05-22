@@ -15,6 +15,8 @@
 		4085CF761CB4D10D00F27AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4085CF741CB4D10D00F27AC2 /* LaunchScreen.storyboard */; };
 		4085CF811CB4D10D00F27AC2 /* AnimationTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF801CB4D10D00F27AC2 /* AnimationTaskTests.m */; };
 		4085CF8C1CB4D10D00F27AC2 /* AnimationTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF8B1CB4D10D00F27AC2 /* AnimationTaskUITests.m */; };
+		9B7F4B731CF15BA1004803A3 /* JKLayerAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B721CF15BA1004803A3 /* JKLayerAnima.m */; };
+		9B7F4B761CF15BA8004803A3 /* JKViewAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B751CF15BA8004803A3 /* JKViewAnima.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		4085CF871CB4D10D00F27AC2 /* AnimationTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4085CF8B1CB4D10D00F27AC2 /* AnimationTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTaskUITests.m; sourceTree = "<group>"; };
 		4085CF8D1CB4D10D00F27AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7F4B711CF15BA1004803A3 /* JKLayerAnima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLayerAnima.h; sourceTree = "<group>"; };
+		9B7F4B721CF15BA1004803A3 /* JKLayerAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLayerAnima.m; sourceTree = "<group>"; };
+		9B7F4B741CF15BA8004803A3 /* JKViewAnima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewAnima.h; sourceTree = "<group>"; };
+		9B7F4B751CF15BA8004803A3 /* JKViewAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewAnima.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,8 @@
 		4085CF991CB4D11400F27AC2 /* ViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9B7F4B741CF15BA8004803A3 /* JKViewAnima.h */,
+				9B7F4B751CF15BA8004803A3 /* JKViewAnima.m */,
 			);
 			name = ViewAnimation;
 			sourceTree = "<group>";
@@ -156,6 +164,8 @@
 		4085CF9A1CB4D11E00F27AC2 /* LayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9B7F4B711CF15BA1004803A3 /* JKLayerAnima.h */,
+				9B7F4B721CF15BA1004803A3 /* JKLayerAnima.m */,
 			);
 			name = LayerAnimation;
 			sourceTree = "<group>";
@@ -318,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7F4B761CF15BA8004803A3 /* JKViewAnima.m in Sources */,
 				4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */,
+				9B7F4B731CF15BA1004803A3 /* JKLayerAnima.m in Sources */,
 				4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */,
 				4085CF681CB4D10D00F27AC2 /* main.m in Sources */,
 			);
@@ -546,6 +558,7 @@
 				4085CF921CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4085CF931CB4D10D00F27AC2 /* Build configuration list for PBXNativeTarget "AnimationTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +567,7 @@
 				4085CF951CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4085CF961CB4D10D00F27AC2 /* Build configuration list for PBXNativeTarget "AnimationTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +576,7 @@
 				4085CF981CB4D10D00F27AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

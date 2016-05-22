@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "JKViewAnima.h"
+#import "JKLayerAnima.h"
+
 
 static NSString * const kCellID = @"kCellID";
 
@@ -23,13 +26,8 @@ static NSString * const kCellID = @"kCellID";
     [super viewDidLoad];
     
     self.animationNames = @[@"ViewAnimation", @"LayerAnimation", @"TransitionAnimation", @"DynamicAnimation", @"ParticleAnimation"];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - TableView DataSource && Delegate
 
@@ -47,8 +45,8 @@ static NSString * const kCellID = @"kCellID";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-   // TODO: Finish Click Action
-    
+    id vc  = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:self.animationNames[indexPath.row]];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
