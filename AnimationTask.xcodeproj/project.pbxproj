@@ -17,6 +17,9 @@
 		4085CF8C1CB4D10D00F27AC2 /* AnimationTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF8B1CB4D10D00F27AC2 /* AnimationTaskUITests.m */; };
 		9B7F4B731CF15BA1004803A3 /* JKLayerAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B721CF15BA1004803A3 /* JKLayerAnima.m */; };
 		9B7F4B761CF15BA8004803A3 /* JKViewAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B751CF15BA8004803A3 /* JKViewAnima.m */; };
+		9B7F4B791CF1780C004803A3 /* TransitionAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B781CF1780C004803A3 /* TransitionAnima.m */; };
+		9B7F4B7C1CF2116C004803A3 /* TransitionAnimation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B7B1CF2116C004803A3 /* TransitionAnimation2.m */; };
+		9B7F4B821CF214B2004803A3 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B7F1CF214B2004803A3 /* PingTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		9B7F4B721CF15BA1004803A3 /* JKLayerAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLayerAnima.m; sourceTree = "<group>"; };
 		9B7F4B741CF15BA8004803A3 /* JKViewAnima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewAnima.h; sourceTree = "<group>"; };
 		9B7F4B751CF15BA8004803A3 /* JKViewAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewAnima.m; sourceTree = "<group>"; };
+		9B7F4B771CF1780C004803A3 /* TransitionAnima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnima.h; sourceTree = "<group>"; };
+		9B7F4B781CF1780C004803A3 /* TransitionAnima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnima.m; sourceTree = "<group>"; };
+		9B7F4B7A1CF2116C004803A3 /* TransitionAnimation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation2.h; sourceTree = "<group>"; };
+		9B7F4B7B1CF2116C004803A3 /* TransitionAnimation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation2.m; sourceTree = "<group>"; };
+		9B7F4B7E1CF214B2004803A3 /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
+		9B7F4B7F1CF214B2004803A3 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +189,11 @@
 		4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9B7F4B7D1CF214A4004803A3 /* Class */,
+				9B7F4B771CF1780C004803A3 /* TransitionAnima.h */,
+				9B7F4B781CF1780C004803A3 /* TransitionAnima.m */,
+				9B7F4B7A1CF2116C004803A3 /* TransitionAnimation2.h */,
+				9B7F4B7B1CF2116C004803A3 /* TransitionAnimation2.m */,
 			);
 			name = TransitionAnimation;
 			sourceTree = "<group>";
@@ -196,6 +210,15 @@
 			children = (
 			);
 			name = ParticleAnaimation;
+			sourceTree = "<group>";
+		};
+		9B7F4B7D1CF214A4004803A3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F4B7E1CF214B2004803A3 /* PingTransition.h */,
+				9B7F4B7F1CF214B2004803A3 /* PingTransition.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7F4B761CF15BA8004803A3 /* JKViewAnima.m in Sources */,
+				9B7F4B7C1CF2116C004803A3 /* TransitionAnimation2.m in Sources */,
+				9B7F4B791CF1780C004803A3 /* TransitionAnima.m in Sources */,
 				4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */,
+				9B7F4B821CF214B2004803A3 /* PingTransition.m in Sources */,
 				9B7F4B731CF15BA1004803A3 /* JKLayerAnima.m in Sources */,
 				4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */,
 				4085CF681CB4D10D00F27AC2 /* main.m in Sources */,
