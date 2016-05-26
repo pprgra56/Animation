@@ -15,7 +15,7 @@
     [super viewDidLoad];
     self.title = @"TransitionAnima.h";
 
-
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated{

@@ -59,8 +59,10 @@
 
         //4
         [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+            CGRect rect =  CGRectMake(0, 0, tovc.view.frame.size.width, tovc.view.frame.size.height-44);
 
-            templeView.frame = CGRectMake(tovc.view.center.x-92, tovc.view.center.y-92, 184, 184);
+            templeView.frame = CGRectMake((rect.size.width/2.0f)-92, (rect.size.height/2.0f-10+64)-92, 184, 184);
+            NSLog(@"### %@ %s(%d) " ,[NSValue valueWithCGRect: templeView.frame] , __PRETTY_FUNCTION__, __LINE__);
             fromvc.blurview.alpha = 1;
         }completion:^(BOOL finished) {
 
@@ -74,10 +76,11 @@
 
 
     }else{
+
         //1
         TransitionAnimation2 *fromvc =  [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
         TransitionAnima *tovc = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-
+        NSLog(@"### %@ %s(%d) " ,[NSValue valueWithCGRect: fromvc.imgframe], __PRETTY_FUNCTION__, __LINE__);
         //2
         UIView *containerView =  [transitionContext containerView];
 
@@ -85,9 +88,11 @@
         //3
         UIView *templeview = [fromvc.playimg snapshotViewAfterScreenUpdates:NO];
         fromvc.playimg.hidden = YES;
-        templeview.frame = fromvc.imgframe;
+        CGRect rect =  CGRectMake(fromvc.imgframe.origin.x,fromvc.imgframe.origin.y+64, fromvc.imgframe.size.width, fromvc.imgframe.size.height);
 
-NSLog(@"### %@ %s(%d) " ,[NSValue valueWithCGRect:fromvc.imgframe] , __PRETTY_FUNCTION__, __LINE__);
+        templeview.frame = rect;
+
+
         [containerView addSubview:tovc.view];
         [containerView addSubview:templeview];
         tovc.view .alpha = 0;
