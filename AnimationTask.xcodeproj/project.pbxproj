@@ -20,6 +20,12 @@
 		9B7F4B791CF1780C004803A3 /* TransitionAnima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B781CF1780C004803A3 /* TransitionAnima.m */; };
 		9B7F4B7C1CF2116C004803A3 /* TransitionAnimation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B7B1CF2116C004803A3 /* TransitionAnimation2.m */; };
 		9B7F4B821CF214B2004803A3 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F4B7F1CF214B2004803A3 /* PingTransition.m */; };
+		9BBC84871CF6FBE000FB4A01 /* JKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC84861CF6FBE000FB4A01 /* JKTableViewController.m */; };
+		9BBC848A1CF6FD8D00FB4A01 /* JKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC84891CF6FD8D00FB4A01 /* JKCell.m */; };
+		9BBC848D1CF7077C00FB4A01 /* DetailPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC848C1CF7077C00FB4A01 /* DetailPage.m */; };
+		9BBC84901CF7E52100FB4A01 /* JKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC848F1CF7E52100FB4A01 /* JKTransition.m */; };
+		9BCB0E1C1CF844EC0069C0BC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCB0E1B1CF844EC0069C0BC /* UIView+Extension.m */; };
+		9BCB0E1F1CF848E30069C0BC /* JKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCB0E1E1CF848E30069C0BC /* JKNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,18 @@
 		9B7F4B7B1CF2116C004803A3 /* TransitionAnimation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation2.m; sourceTree = "<group>"; };
 		9B7F4B7E1CF214B2004803A3 /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
 		9B7F4B7F1CF214B2004803A3 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
+		9BBC84851CF6FBE000FB4A01 /* JKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTableViewController.h; sourceTree = "<group>"; };
+		9BBC84861CF6FBE000FB4A01 /* JKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTableViewController.m; sourceTree = "<group>"; };
+		9BBC84881CF6FD8D00FB4A01 /* JKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCell.h; sourceTree = "<group>"; };
+		9BBC84891CF6FD8D00FB4A01 /* JKCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCell.m; sourceTree = "<group>"; };
+		9BBC848B1CF7077C00FB4A01 /* DetailPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPage.h; sourceTree = "<group>"; };
+		9BBC848C1CF7077C00FB4A01 /* DetailPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPage.m; sourceTree = "<group>"; };
+		9BBC848E1CF7E52100FB4A01 /* JKTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTransition.h; sourceTree = "<group>"; };
+		9BBC848F1CF7E52100FB4A01 /* JKTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTransition.m; sourceTree = "<group>"; };
+		9BCB0E1A1CF844EC0069C0BC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9BCB0E1B1CF844EC0069C0BC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9BCB0E1D1CF848E30069C0BC /* JKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationController.h; sourceTree = "<group>"; };
+		9BCB0E1E1CF848E30069C0BC /* JKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +134,7 @@
 		4085CF651CB4D10D00F27AC2 /* AnimationTask */ = {
 			isa = PBXGroup;
 			children = (
+				9BCB0E191CF844DE0069C0BC /* Category */,
 				4085CF9E1CB4D15000F27AC2 /* ParticleAnaimation */,
 				4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */,
 				4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */,
@@ -201,6 +220,16 @@
 		4085CF9D1CB4D14000F27AC2 /* DynamicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9BBC84851CF6FBE000FB4A01 /* JKTableViewController.h */,
+				9BBC84861CF6FBE000FB4A01 /* JKTableViewController.m */,
+				9BBC84881CF6FD8D00FB4A01 /* JKCell.h */,
+				9BBC84891CF6FD8D00FB4A01 /* JKCell.m */,
+				9BBC848B1CF7077C00FB4A01 /* DetailPage.h */,
+				9BBC848C1CF7077C00FB4A01 /* DetailPage.m */,
+				9BBC848E1CF7E52100FB4A01 /* JKTransition.h */,
+				9BBC848F1CF7E52100FB4A01 /* JKTransition.m */,
+				9BCB0E1D1CF848E30069C0BC /* JKNavigationController.h */,
+				9BCB0E1E1CF848E30069C0BC /* JKNavigationController.m */,
 			);
 			name = DynamicAnimation;
 			sourceTree = "<group>";
@@ -219,6 +248,15 @@
 				9B7F4B7F1CF214B2004803A3 /* PingTransition.m */,
 			);
 			name = Class;
+			sourceTree = "<group>";
+		};
+		9BCB0E191CF844DE0069C0BC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9BCB0E1A1CF844EC0069C0BC /* UIView+Extension.h */,
+				9BCB0E1B1CF844EC0069C0BC /* UIView+Extension.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,11 +391,17 @@
 			files = (
 				9B7F4B761CF15BA8004803A3 /* JKViewAnima.m in Sources */,
 				9B7F4B7C1CF2116C004803A3 /* TransitionAnimation2.m in Sources */,
+				9BCB0E1F1CF848E30069C0BC /* JKNavigationController.m in Sources */,
+				9BCB0E1C1CF844EC0069C0BC /* UIView+Extension.m in Sources */,
 				9B7F4B791CF1780C004803A3 /* TransitionAnima.m in Sources */,
 				4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */,
+				9BBC84871CF6FBE000FB4A01 /* JKTableViewController.m in Sources */,
+				9BBC84901CF7E52100FB4A01 /* JKTransition.m in Sources */,
 				9B7F4B821CF214B2004803A3 /* PingTransition.m in Sources */,
 				9B7F4B731CF15BA1004803A3 /* JKLayerAnima.m in Sources */,
+				9BBC848D1CF7077C00FB4A01 /* DetailPage.m in Sources */,
 				4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */,
+				9BBC848A1CF6FD8D00FB4A01 /* JKCell.m in Sources */,
 				4085CF681CB4D10D00F27AC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
